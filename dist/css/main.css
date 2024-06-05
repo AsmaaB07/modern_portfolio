@@ -163,13 +163,17 @@ main {
     border: #b245f7 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    text-align: justify; }
   .about-info .job-1 {
-    grid-area: job1; }
+    grid-area: job1;
+    text-align: justify; }
   .about-info .job-2 {
-    grid-area: job2; }
+    grid-area: job2;
+    text-align: justify; }
   .about-info .job-3 {
-    grid-area: job3; }
+    grid-area: job3;
+    text-align: justify; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
@@ -205,6 +209,38 @@ main {
       color: #000; }
       .boxes div:hover span {
         color: #000; }
+  .boxes form {
+    width: 90%;
+    max-width: 600px; }
+  .boxes .input-group {
+    margin-bottom: 30px;
+    position: relative; }
+  .boxes input, .boxes textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    background: transparent;
+    font-size: 15px; }
+  .boxes label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #000;
+    cursor: text;
+    transition: 0.2s; }
+  .boxes button {
+    padding: 10px 0;
+    color: #000;
+    outline: none;
+    background: transparent;
+    border: 3px solid #fff;
+    width: 100%;
+    cursor: pointer; }
+  .boxes input:focus ~ label, .boxes input:valid ~ label, .boxes textarea:focus ~ label, .boxes textarea:valid ~ label {
+    top: -35px;
+    font-size: 14px; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
