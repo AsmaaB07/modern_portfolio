@@ -11,7 +11,7 @@ body {
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1,5;
+    line-height: 1.5;
 }
 
 // Headings
@@ -25,7 +25,7 @@ h1, h2, h3 {
     &.sm-heading {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
-        background: rgba(lighten($primary-color, $amount: 2), 0.5);
+        background: rgba(lighten($primary-color, $amount: 2), 0.2);
     }
 }
 
@@ -90,14 +90,24 @@ main {
    .job-1 {
     grid-area: job1;
     text-align: justify;
+    h3 {
+        color: $secondary-color;
+    }
+
    }
    .job-2 {
     grid-area: job2;
     text-align: justify;
+    h3 {
+        color: $secondary-color;
+    }
    }
    .job-3 {
     grid-area: job3;
     text-align: justify;
+    h3 {
+        color: $secondary-color;
+    }
    }
    .job {
     background: lighten($primary-color, 5);
@@ -152,27 +162,28 @@ main {
 
     }
     form {
-        width: 90%;
-        max-width: 600px;
+        width: 100%;
+        max-width: 400px;
 
     }
     .input-group {
         margin-bottom: 30px;
         position: relative;
+        font-size: 20px;
+        
     }
     input, textarea {
         width: 100%;
         padding: 10px;
         outline: 0;
-        background: transparent;
-        font-size: 15px;
+        font-size: 10px;
         
     }
     label {
         height: 100%;
         position: absolute;
-        left: 0;
-        top: 0;
+        left: 10%;
+        top: 20%;
         padding: 10px;
         color: set-text-color($secondary-color);
         cursor: text;
@@ -181,16 +192,19 @@ main {
     button {
         padding: 10px 0;
         color: set-text-color($secondary-color);
-        outline: none;
+        font-size: 20px;
+        outline: $secondary-color;
         background: transparent;
         border: 3px solid #fff;
         width: 100%;
         cursor: pointer;
-
+        
     }
+
     input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label {
         top: -35px;
         font-size: 14px;
+        color: #fff;
     }
    
 }
