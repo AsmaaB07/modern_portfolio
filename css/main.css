@@ -138,7 +138,7 @@ header {
   color: #ab3deb; }
 
 main {
-  padding: 4rem;
+  padding: 2rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem;
@@ -326,18 +326,19 @@ main {
       text-align: center; }
   .projects {
     grid-template-columns: 1fr; }
-  main#about .bio {
-    font-size: 1rem;
-    text-align: left;
-    margin-left: 0.5;
-    margin-right: 0.5; }
-  main#about .job-1 {
-    text-align: left;
-    font-size: 1rem; }
-  main#about .job-2 {
-    text-align: left;
-    font-size: 1rem; }
-  main#about .job-3 {
-    text-align: left;
-    font-size: 1rem; }
+  main#about {
+    margin: 0;
+    margin: 0; }
+    main#about .bio {
+      font-size: 1rem;
+      text-align: left; }
+    main#about .job-1 {
+      text-align: left;
+      font-size: 1rem; }
+    main#about .job-2 {
+      text-align: left;
+      font-size: 1rem; }
+    main#about .job-3 {
+      text-align: left;
+      font-size: 1rem; }
   text-align: center; }
