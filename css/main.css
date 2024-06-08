@@ -326,4 +326,7 @@ main {
       text-align: center; }
   .projects {
     grid-template-columns: 1fr; }
+  main#about .bio {
+    font-size: 1rem;
+    text-align: justify; }
   text-align: center; }
