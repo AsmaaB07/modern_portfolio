@@ -328,5 +328,16 @@ main {
     grid-template-columns: 1fr; }
   main#about .bio {
     font-size: 1rem;
-    text-align: justify; }
+    text-align: left;
+    margin-left: 0.5;
+    margin-right: 0.5; }
+  main#about .job-1 {
+    text-align: left;
+    font-size: 1rem; }
+  main#about .job-2 {
+    text-align: left;
+    font-size: 1rem; }
+  main#about .job-3 {
+    text-align: left;
+    font-size: 1rem; }
   text-align: center; }
