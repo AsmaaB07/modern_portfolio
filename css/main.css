@@ -39,14 +39,15 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #515496;
+    font-weight: bold;
+    background: #69559d;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #5b5ea6;
+    background: #7662aa;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -56,14 +57,14 @@
       height: 250px;
       background: url("../img/portraitG.jpeg");
       border-radius: 50%;
-      border: solid 3px #fff; }
+      border: solid 3px #ffff; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #fff; }
+      color: #ffff; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -75,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #fff; }
+      color: #ffff; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -93,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #5b5ea6;
+  background: #7662aa;
   color: #000;
   height: 100%;
   margin: 0;
@@ -111,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(91, 94, 166, 0.9); }
+      background: rgba(118, 98, 170, 0.9); }
 
 h1, h2, h3 {
   margin: 0;
@@ -122,7 +123,7 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(98, 100, 170, 0.2); }
+    background: rgba(124, 105, 174, 0.2); }
 
 a {
   color: #fff;
@@ -134,7 +135,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #fff; }
+  color: #ffff; }
 
 main {
   padding: 2rem;
@@ -145,7 +146,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #fff;
+        color: #ffff;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -161,7 +162,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #fff 3px solid; }
+    border: #ffff 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem;
@@ -170,21 +171,21 @@ main {
     grid-area: job1;
     text-align: justify; }
     .about-info .job-1 h3 {
-      color: #fff; }
+      color: #ffff; }
   .about-info .job-2 {
     grid-area: job2;
     text-align: justify; }
     .about-info .job-2 h3 {
-      color: #fff; }
+      color: #ffff; }
   .about-info .job-3 {
     grid-area: job3;
     text-align: justify; }
     .about-info .job-3 h3 {
-      color: #fff; }
+      color: #ffff; }
   .about-info .job {
-    background: #6c6eaf;
+    background: #8473b3;
     padding: 0.5rem;
-    border-bottom: #fff 5px solid; }
+    border-bottom: #ffff 5px solid; }
 
 .projects {
   display: grid;
@@ -195,7 +196,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #fff;
+      border-color: #ffff;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -212,7 +213,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1,5rem;
-      background: #fff;
+      background: #ffff;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -241,7 +242,7 @@ main {
     padding: 10px 0;
     color: #000;
     font-size: 20px;
-    outline: #fff;
+    outline: #ffff;
     background: transparent;
     border: 3px solid #fff;
     width: 100%;
@@ -257,11 +258,11 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #fff;
+    background: #ffff;
     color: #000; }
 
 .btn-dark {
-  background: #010101;
+  background: #060508;
   color: #fff; }
 
 .btn-light {
@@ -271,7 +272,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #484b86;
+  background: #5e4c8d;
   color: #000;
   height: 60px; }
 
@@ -320,8 +321,7 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh;
-    overflow: scroll; }
+    margin-top: 10vh; }
     main#home h1 .lg-heading {
       line-height: 1;
       font-size: 2rem;
