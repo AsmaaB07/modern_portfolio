@@ -199,7 +199,7 @@ main {
       transition: all 0.5s ease-out; }
 
 .boxes {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
@@ -207,7 +207,7 @@ main {
   .boxes div {
     font-size: 2rem;
     border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
+    padding: 1rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
@@ -346,5 +346,8 @@ main {
     font-size: 1rem; }
   main#about .job-3 {
     text-align: left;
+    font-size: 1rem; }
+  main#contact .boxes div {
+    padding: 1rem;
     font-size: 1rem; }
   text-align: center; }
