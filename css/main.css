@@ -166,20 +166,20 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem;
-    text-align: justify; }
+    text-align: left; }
   .about-info .job-1 {
     grid-area: job1;
-    text-align: justify; }
+    text-align: left; }
     .about-info .job-1 h3 {
       color: #ffff; }
   .about-info .job-2 {
     grid-area: job2;
-    text-align: justify; }
+    text-align: left; }
     .about-info .job-2 h3 {
       color: #ffff; }
   .about-info .job-3 {
     grid-area: job3;
-    text-align: justify; }
+    text-align: left; }
     .about-info .job-3 h3 {
       color: #ffff; }
   .about-info .job {
